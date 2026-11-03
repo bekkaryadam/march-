@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pouchline Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header class="topbar">
+
+    <a class="brand" href="#home">
+        <span class="brand-mark">
+            <i class="fa-solid fa-leaf"></i>
+        </span>
+
+        <span>
+            <strong>pouchline</strong>
+            <small>NICOTINE POUCHES</small>
+        </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    <nav id="nav">
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-copy">
+
+        <div class="hero-logo">
+            <h2>POUCHLINE</h2>
+        </div>
+
+        <h1>
+            BLACK FRIDAY
+            <br>
+            <span>CYBER MONDAY</span>
+        </h1>
+
+        <p class="tagline">
+            Big brands.
+            <b>Bigger deals.</b>
+        </p>
+
+        <a href="#products" class="button">
+            DISCOVER
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+    </div>
+
+    <div class="hero-image-wrap">
+        <img src="c:\Users\bekka\Downloads\flyaer.jpeg" alt="Pouchline Flyer">
+    </div>
+
+</section>
+
+
+<section class="trust-row">
+
+    <div>
+        <i class="fa-solid fa-truck-fast"></i>
+        <span>
+            <b>Delivery</b>
+            <small>Delivery information</small>
+        </span>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-shield-halved"></i>
+        <span>
+            <b>Product Information</b>
+            <small>Transparent descriptions</small>
+        </span>
+    </div>
+
+    <div>
+        <i class="fa-solid fa-lock"></i>
+        <span>
+            <b>Secure Website</b>
+            <small>Data protection</small>
+        </span>
+    </div>
+
+</section>
+
+
+<section class="products section" id="products">
+
+    <div class="section-title">
+        <span></span>
+        <h2>OUR <b>COLLECTION</b></h2>
+        <span></span>
+    </div>
+
+    <p class="section-note">
+        Discover our product collection.
+    </p>
+
+    <div class="product-grid">
+
+        <article class="product-card">
+            <div class="product-art maggie">M</div>
+            <h3>MAGGIE</h3>
+            <p>Original Jamaican Pouch</p>
+            <button class="details-btn" data-product="MAGGIE">
+                Details
+            </button>
+        </article>
+
+
+        <article class="product-card">
+            <div class="product-art kurwa">K</div>
+            <h3>KURWA Collection</h3>
+            <p>Fizzy Cherry</p>
+            <button class="details-btn" data-product="KURWA">
+                Details
+            </button>
+        </article>
+
+
+        <article class="product-card">
+            <div class="product-art fox">
+                <i class="fa-solid fa-paw"></i>
+            </div>
+            <h3>FOX</h3>
+            <p>Product information</p>
+            <button class="details-btn" data-product="FOX">
+                Details
+            </button>
+        </article>
+
+
+        <article class="product-card">
+            <div class="product-art slay">SLAY.</div>
+            <h3>SLAY.</h3>
+            <p>Mint Menthol</p>
+            <button class="details-btn" data-product="SLAY">
+                Details
+            </button>
+        </article>
+
+
+        <article class="product-card">
+            <div class="product-art pablo">PABLO</div>
+            <h3>PABLO</h3>
+            <p>Grape Ice</p>
+            <button class="details-btn" data-product="PABLO">
+                Details
+            </button>
+        </article>
+
+    </div>
+
+</section>
+
+
+<section class="promo" id="about">
+
+    <div>
+        <p class="eyebrow">POUCHLINE</p>
+
+        <h2>Discover Our Universe</h2>
+
+        <p>
+            Discover our brand and explore product information.
+        </p>
+    </div>
+
+    <span class="promo-icon">
+        <i class="fa-solid fa-leaf"></i>
+    </span>
+
+</section>
+
+
+<section class="notice">
+    <i class="fa-solid fa-circle-exclamation"></i>
+
+    <p>
+        Nicotine is addictive. Products containing nicotine
+        are intended for adults only. They are not suitable
+        for minors, non-smokers, or pregnant and breastfeeding
+        women. Follow local regulations.
+    </p>
+</section>
+```html
+<section class="products section" id="products">
+
+    <div class="section-title">
+        <span></span>
+        <h2>OUR <b>COLLECTION</b></h2>
+        <span></span>
+    </div>
+
+    <p class="section-note">Discover Our Collection</p>
+
+    <div class="product-grid">
+
+        <!-- MAGGIE -->
+        <article class="product-card">
+            <div class="product-art maggie">M</div>
+            <h3>MAGGIE</h3>
+            <p>Original Jamaican Pouch</p>
+            <div class="dose">4.3 MG</div>
+            <button class="details-btn">Details</button>
+        </article>
+
+        <!-- KURWA -->
+        <article class="product-card">
+            <div class="product-art kurwa">K</div>
+            <h3>KURWA</h3>
+            <p>Fizzy Cherry</p>
+            <button class="details-btn">Details</button>
+        </article>
+
+        <!-- FOX -->
+        <article class="product-card">
+            <div class="product-art fox">
+                <i class="fa-solid fa-paw"></i>
+            </div>
+            <h3>FOX</h3>
+            <p>Product Information</p>
+            <button class="details-btn">Details</button>
+        </article>
+
+        <!-- SLAY -->
+        <article class="product-card">
+            <div class="product-art slay">SLAY.</div>
+            <h3>SLAY. MINT MENTHOL</h3>
+            <p>Mint Menthol</p>
+            <div class="dose">1 MG</div>
+            <button class="details-btn">Details</button>
+        </article>
+
+        <!-- PABLO -->
+        <article class="product-card">
+            <div class="product-art pablo">PABLO</div>
+            <h3>PABLO GRAPE ICE</h3>
+            <p>Grape Ice</p>
+            <div class="dose">6 MG</div>
+            <button class="details-btn">Details</button>
+        </article>
+
+    </div>
+</section>
+```
+
+
+</main>
+
+
+<footer id="contact">
+
+    <div class="brand">
+        <span class="brand-mark">
+            <i class="fa-solid fa-leaf"></i>
+        </span>
+
+        <span>
+            <strong>pouchline</strong>
+            <small>NICOTINE POUCHES</small>
+        </span>
+    </div>
+
+    <div class="social">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-facebook"></i>
+    </div>
+
+    <p>© 2026 Pouchline. All rights reserved.</p>
+
+</footer>
+
+
+<div class="modal" id="modal">
+
+    <div class="modal-box">
+
+        <button class="modal-close" id="modalClose">×</button>
+
+        <h2 id="modalTitle">Product</h2>
+
+        <p>
+            Nicotine is addictive. Please consult the
+            manufacturer's product information.
+        </p>
+
+    </div>
+
+</div>
+
+
+<div class="age-gate" id="ageGate">
+
+    <div class="age-box">
+
+        <h2>Are you 18 or older?</h2>
+
+        <p>
+            This website presents information about
+            products containing addictive nicotine.
+            Access is restricted to adults.
+        </p>
+
+        <button id="ageYes" class="button">
+            Yes, I am 18+
+        </button>
+
+        <button id="ageNo" class="minor-btn">
+            No
+        </button>
+
+    </div>
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
